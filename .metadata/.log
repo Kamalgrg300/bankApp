@@ -1,0 +1,128 @@
+!SESSION 2025-03-06 12:26:06.213 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/kamalgurung/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/kamalgurung/.eclipse_keyring -data /Users/kamalgurung/Desktop/bankApp
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-06 12:26:10.481
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-06 12:26:12.906
+!MESSAGE Logback config file: /Users/kamalgurung/Desktop/bankApp/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-06 12:26:13.655
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-06 12:26:13.655
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-06 12:26:14.943
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-06 12:26:14.944
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-03-06 12:26:21.099
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-03-06 12:26:22.251
+!MESSAGE [C4E] Copilot API proxy: direct mode
+
+!ENTRY com.genuitec.copilot4eclipse 1 0 2025-03-06 12:26:24.351
+!MESSAGE Starting Copilot4Eclipse
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2025-03-06 12:26:27.877
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:01.931
+!MESSAGE Classpath changed for project: serviceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:03.521
+!MESSAGE Classpath changed for project: serviceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:15.917
+!MESSAGE Classpath changed for project: serviceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:15.953
+!MESSAGE Boot project ADDED: serviceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:15.955
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:15.986
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-06 12:27:16.060
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.5.v20241023-1957/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/kamalgurung/Desktop/bankApp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1741282036049
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.59.0.202411281450/servers/spring-boot-language-server/spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:16.062
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-06 12:27:16.079
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3706
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:20.765
+!MESSAGE Classpath changed for project: AuthService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:20.887
+!MESSAGE Classpath changed for project: AuthService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:24.661
+!MESSAGE Classpath changed for project: AuthService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:24.669
+!MESSAGE Boot project ADDED: AuthService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:24.813
+!MESSAGE Classpath changed for project: AuthService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:40.446
+!MESSAGE Classpath changed for project: creditCardService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:40.603
+!MESSAGE Classpath changed for project: creditCardService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:43.599
+!MESSAGE Classpath changed for project: creditCardService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:43.604
+!MESSAGE Boot project ADDED: creditCardService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:43.658
+!MESSAGE Classpath changed for project: creditCardService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:52.529
+!MESSAGE Classpath changed for project: account
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:52.632
+!MESSAGE Classpath changed for project: account
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:54.060
+!MESSAGE Classpath changed for project: account
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-06 12:27:54.062
+!MESSAGE Boot project ADDED: account
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-03-06 12:28:10.308
+!MESSAGE [C4E] Conversation persistence: /Users/kamalgurung/Desktop/bankApp/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-03-06 12:28:10.509
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:51752/chat
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-03-06 12:28:15.525
+!MESSAGE [C4E] Workspace labels: java,maven
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-03-06 12:49:05.566
+!MESSAGE Request checkStatus failed with message: Stream closed with error code NGHTTP2_REFUSED_STREAM
