@@ -37,9 +37,9 @@ public class SecurityConfig {
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/api/auth/**").permitAll()
-                .requestMatchers("/api/creditcard/**").hasRole("CUSTOMER") // FIXED
-                .requestMatchers("/api/transaction/**").hasRole("CUSTOMER") // FIXED
-                .requestMatchers("/api/payment/**").hasRole("CUSTOMER") // FIXED
+                .requestMatchers("/api/creditcard/**").hasAuthority("ROLE_CUSTOMER") // FIXED
+                .requestMatchers("/api/transaction/**").hasAuthority("ROLE_CUSTOMER") // FIXED
+                .requestMatchers("/api/payment/**").hasAuthority("ROLE_CUSTOMER") // FIXED
                 .anyRequest().authenticated()
             )
             .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
