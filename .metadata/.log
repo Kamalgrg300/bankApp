@@ -126,3 +126,6 @@ END
 
 !ENTRY com.genuitec.copilot4eclipse 4 0 2025-03-06 12:49:05.566
 !MESSAGE Request checkStatus failed with message: Stream closed with error code NGHTTP2_REFUSED_STREAM
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2025-03-06 13:10:44.657
+!MESSAGE Request checkStatus failed with message: Stream closed with error code NGHTTP2_REFUSED_STREAM
